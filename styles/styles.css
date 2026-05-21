@@ -65,6 +65,8 @@ main img {
     border: 1px solid rgba(0, 0, 0, 10%);
     padding: var(--padding);
     box-shadow: 0 0 30px #333;
+    float: right;
+    margin: 0 0 1rem 1rem;
 }
 
 footer {
@@ -90,5 +92,5 @@ main img {
 aside h2 {
     position: absolute;
     top: 47px;
-    left: 150px;
+    left: 100px;
 }
