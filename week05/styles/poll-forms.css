@@ -14,6 +14,7 @@ body {
 header {
     margin: 0;
     width: 650px;
+    justify-self: center;
 }
 
 h1 {
@@ -21,6 +22,7 @@ h1 {
     font-size: 1.5em;
     color: navy;
     text-align: center;
+
 }
 
 form {
@@ -65,4 +67,61 @@ select,
 textarea {
     padding: 0.5rem;
     font-size: 1.1rem;
+
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+    justify-self: center;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 0.8em;
+    color: #777;
+    border-top: 1px solid #ccc;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+
+}
+
+.column3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+}
+
+.column3 label {
+    text-align: center;
+    margin-top: 10px;
 }
