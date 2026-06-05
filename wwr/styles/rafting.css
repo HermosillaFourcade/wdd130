@@ -198,6 +198,33 @@ nav a {
     text-align: center;
 }
 
+.serve {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    border: 1px solid gray;
+    width: 100%;
+    margin: 15px auto 0 auto;
+}
+
+.serve img {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 130px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.serve h2 {
+    grid-column: 1/6;
+    margin-bottom: 10px;
+}
+
+.serve figure {
+    text-align: center;
+}
+
 footer {
     background-color: #3e3e3e;
     color: #fff;
@@ -207,4 +234,9 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.rafting p {
+    justify-self: center;
+    padding: 0;
 }
